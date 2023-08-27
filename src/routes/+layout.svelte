@@ -1,7 +1,5 @@
 <script lang="ts">
     import { base } from "$app/paths";
-
-
 </script>
 
 <div class="app">
@@ -17,39 +15,39 @@
 </div>
 
 <style>
-div.header {
-    display: inline-block;
-    padding: 1rem;
-    background: #eee;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    div.header {
+        display: inline-block;
+        padding: 1rem;
+        background: #eee;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0px 10px;
-    position: relative;
-    color: black;
-}
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0px 10px;
+        position: relative;
+        color: black;
+    }
 
-a:visited {
-    color: inherit;
-}
+    a:visited {
+        color: inherit;
+    }
 
-a:hover {
-    color: #4d7716;
-}
+    a:hover {
+        color: #4d7716;
+    }
 
-main {
-    position: relative;
-}
+    main {
+        position: relative;
+    }
 
-:global(body) {
-    margin: 0;
-    padding: 20px;
-    background-color: #ccc;
-    font-family: sans-serif;
-}
+    :global(body) {
+        margin: 0;
+        padding: 20px;
+        background-color: #ccc;
+        font-family: sans-serif;
+    }
 </style>
