@@ -15,6 +15,20 @@
 </div>
 
 <style>
+    .app {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        padding: 1.5em;
+    }
+
+    main {
+        position: relative;
+        flex: 1 1 auto;
+        flex-flow: column;
+        display: flex;
+    }
+
     div.header {
         display: inline-block;
         padding: 1rem;
@@ -38,16 +52,5 @@
 
     a:hover {
         color: #4d7716;
-    }
-
-    main {
-        position: relative;
-    }
-
-    :global(body) {
-        margin: 0;
-        padding: 20px;
-        background-color: #ebebeb;
-        font-family: sans-serif;
     }
 </style>
