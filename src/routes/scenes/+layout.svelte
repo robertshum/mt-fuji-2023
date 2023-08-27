@@ -6,6 +6,7 @@ import NeedleEngine from "../NeedleEngine.svelte";
 export let data;
 
 $: src = $page.data.sceneFile;
+
 </script>
 
 <menu>
@@ -16,12 +17,14 @@ $: src = $page.data.sceneFile;
 
 {#if src}
 <NeedleEngine src="{base}/{src}" />
+{:else}
+<h2>Select a scene</h2>
 {/if}
 
 <slot />
 
 <!-- for debugging -->
-<pre>{JSON.stringify($page, null, 2)}</pre>
+<!-- <pre>{JSON.stringify($page, null, 2)}</pre> -->
 
 <style>
 menu {
