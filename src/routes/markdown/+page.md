@@ -2,8 +2,8 @@
  
 </script>
 
-# Hello World!
+# Markdown Example
 
-## Title
+## This is a title
 
-This is a markdown page.
+This page was generated from a markdown file

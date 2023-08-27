@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "../global.css";
     import { base } from "$app/paths";
 </script>
 
@@ -29,28 +30,17 @@
         display: flex;
     }
 
-    div.header {
+    .header {
         display: inline-block;
         padding: 1rem;
         background: #eee;
         border: 1px solid #ccc;
         border-radius: 50px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1em;
     }
-
-    a {
-        text-decoration: none;
+    .header a {
+        margin: 0 1rem;
         font-weight: bold;
-        margin: 0px 10px;
-        position: relative;
-        color: black;
-    }
-
-    a:visited {
-        color: inherit;
-    }
-
-    a:hover {
-        color: #4d7716;
     }
 </style>
