@@ -7,7 +7,7 @@
     });
 </script>
 
-<needle-engine {...$$props} />
+<needle-engine loading-style="light" {...$$props} />
 
 <style>
     needle-engine {
