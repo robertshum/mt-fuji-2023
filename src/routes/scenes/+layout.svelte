@@ -12,7 +12,7 @@
     Select a example scene →
     {#each data.entries as entry}
         <a href="{base}/scenes/{entry.url}">{entry.name}</a>
-    {/each}
+    {/each} <span class="hint">note that each scene is a separate route</span>
 </menu>
 
 {#if src}
@@ -31,5 +31,9 @@
     menu a {
         margin: 4px 10px;
         text-decoration: none;
+    }
+    .hint {
+        color: rgba(0, 0, 0, 0.6);
+        font-style: italic;
     }
 </style>
