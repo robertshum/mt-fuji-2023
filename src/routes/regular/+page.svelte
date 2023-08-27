@@ -29,4 +29,9 @@
         justify-content: center;
         flex: 1 1 auto;
     }
+    @media (max-width: 700px) {
+        .grid {
+            flex-flow: column;
+        }
+    }
 </style>
