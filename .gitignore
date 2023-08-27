@@ -1,6 +1,5 @@
 node_modules/
-assets/
-src/generated/
+src/generated/meta.json
 dist/
 stats.html
 include/draco/

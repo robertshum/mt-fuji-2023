@@ -8,7 +8,6 @@
     "window.title": "SvelteKitTemplate",
     "compile-hero.disable-compile-files-on-did-save-code": true,
     "files.exclude": {
-      "package-lock.json": true,
       "**/.git": true,
       "**/.DS_Store": true,
       "**/node_modules": true,
