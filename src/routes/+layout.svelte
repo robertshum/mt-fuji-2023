@@ -47,7 +47,7 @@
     :global(body) {
         margin: 0;
         padding: 20px;
-        background-color: #ccc;
+        background-color: #ebebeb;
         font-family: sans-serif;
     }
 </style>
