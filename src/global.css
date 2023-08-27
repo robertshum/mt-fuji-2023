@@ -25,12 +25,14 @@ a {
     color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid black;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
     color: #999;
+    border: none;
 }
 
 h1 {

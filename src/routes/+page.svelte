@@ -8,12 +8,22 @@
     <div class="intro">
         <h1>Needle 💚 Sveltekit</h1>
         <h2 class="subtitle">
-            This is an example page built with Sveltekit and Needle Engine
+            This is an example page built with <a href="https://kit.svelte.dev/"
+                >Sveltekit</a
+            >
+            and <a href="https://needle.tools">Needle&nbsp;Engine</a>
         </h2>
         <p>
-            Check out our new font generator and level up your social bios. Need
-            more? Head over to Glyphy for all the fancy fonts and cool symbols
-            you could ever imagine.
+            You can use this as a starting point for building your own Needle
+            Engine experiences with Sveltekit.
+        </p>
+        <p>
+            Find the repository <a
+                href="https://github.com/needle-engine/sveltekit-sample"
+                >here on github</a
+            >. 
+            The repository is setup to be automatically built and deployed too
+            with Github Actions 😊
         </p>
     </div>
 </div>
