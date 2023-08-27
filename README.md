@@ -1,8 +1,8 @@
-This is a SvelteKit project adding the needle-engine web component.
+*This is a SvelteKit project adding the needle-engine web component* 
 
+→ [**Live demo**](https://needle-engine.github.io/sveltekit-sample/) automatically build and deployed via github actions
 
-
-# Needle Engine
+## Needle Engine Configuration
 
 - [`needle.config.json`](./needle.config.json)  
   Added the `baseUrl` config to `assets` to change codegen (`src/generated/gen`) to point to the local server relative url
