@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
 
     onMount(async () => {
-        await import("./../generated/gen.js");
+        await import("../generated/gen.js");
         await import("@needle-tools/engine");
     });
 </script>

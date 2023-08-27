@@ -1,5 +1,5 @@
 <script lang="ts">
-    import NeedleEngine from "../NeedleEngine.svelte";
+    import NeedleEngine from "../../components/NeedleEngine.svelte";
 </script>
 
 <h1>Regular HTML page</h1>

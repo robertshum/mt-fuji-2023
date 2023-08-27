@@ -1,5 +1,5 @@
 <script>
-    import NeedleEngine from "./NeedleEngine.svelte";
+    import NeedleEngine from "../components/NeedleEngine.svelte";
 </script>
 
 <div class="cols">
