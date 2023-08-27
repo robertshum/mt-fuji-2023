@@ -31,6 +31,10 @@
     }
 
     .header {
+        position: sticky;
+        top: .7em;
+        z-index: 999;
+
         display: inline-block;
         padding: 1rem;
         background: #eee;
