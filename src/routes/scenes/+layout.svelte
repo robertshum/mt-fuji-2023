@@ -3,7 +3,7 @@
     import { page } from "$app/stores";
     import NeedleEngine from "../../components/NeedleEngine.svelte";
 
-    export let data;
+    export let data : {entries:Array<{name:string, url:string}>} = {entries:[]};
 
     $: src = $page.data.sceneFile;
 </script>
