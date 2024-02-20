@@ -12,3 +12,4 @@ build.log
 /.svelte-kit
 /build
 .DS_Store
+unity/
