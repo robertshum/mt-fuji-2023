@@ -26,7 +26,7 @@
     flex-flow: column;
     padding: 1.5em;
     z-index: 999;
-    min-width:max-content;
+    min-width: max-content;
   }
 
   /* main {
