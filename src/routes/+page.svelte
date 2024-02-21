@@ -2,9 +2,12 @@
     import NeedleEngine from "../components/NeedleEngine.svelte";
 </script>
 
-<div class="cols">
-    <NeedleEngine />
+<div class="scene">
+  <NeedleEngine/>
+</div>
 
+
+<!-- <div class="cols">
     <div class="intro">
         <h1>Needle 💚 Sveltekit</h1>
         <h2 class="subtitle">
@@ -26,9 +29,12 @@
             with Github Actions 😊
         </p>
     </div>
-</div>
+</div> -->
 
 <style>
+    .scene {
+      height: 100%;
+    }
     .cols {
         display: flex;
         flex-flow: row;
