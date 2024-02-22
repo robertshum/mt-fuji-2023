@@ -13,3 +13,4 @@ build.log
 /build
 .DS_Store
 unity/
+/temp-needle-deploy-to-github~

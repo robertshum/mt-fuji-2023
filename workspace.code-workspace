@@ -5,7 +5,7 @@
     }
   ],
   "settings": {
-    "window.title": "SvelteKitTemplate",
+    "window.title": "mt-fuji-2023",
     "compile-hero.disable-compile-files-on-did-save-code": true,
     "files.exclude": {
       "**/.git": true,
