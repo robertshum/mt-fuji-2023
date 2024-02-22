@@ -106,7 +106,7 @@
 <style>
   /* scrollbar */
   ::-webkit-scrollbar {
-    width: 15px; /* Width of the scrollbar */
+    width: 15px;
   }
 
   /* Track */
@@ -124,9 +124,9 @@
     border: 3px solid transparent;
     background-clip: content-box;
     background-color: #d55959;
-    margin-right: 10px;
   }
 
+  /* to fake the height of the thumb, I used margins for the top and bottom 'end pieces' of the track */
   ::-webkit-scrollbar-track-piece:end {
     background: transparent;
     margin-bottom: 45px;
