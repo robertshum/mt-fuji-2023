@@ -161,7 +161,7 @@
     background-color: aliceblue;
 
     overflow-y: scroll;
-    height: 75vh;
+    height: 90vh;
   }
   @media (max-width: 700px) {
     .cols {
