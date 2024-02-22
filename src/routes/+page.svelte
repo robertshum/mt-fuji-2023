@@ -31,76 +31,25 @@
 </div>
 
 <div class="cols">
-  <div class="info">
-    <h1>Needle 💚 Sveltekit</h1>
-    <h2 class="subtitle">
-      This is an example page built with <a href="https://kit.svelte.dev/"
-        >Sveltekit</a
-      >
-      and <a href="https://needle.tools">Needle&nbsp;Engine</a>
-    </h2>
-    <p>
-      You can use this as a starting point for building your own Needle Engine
-      experiences with Sveltekit.
-    </p>
-    <p>
-      Find the repository <a
-        href="https://github.com/needle-engine/sveltekit-sample"
-        >here on github</a
-      >. The repository is setup to be automatically built and deployed too with
-      Github Actions 😊. The repository is setup to be automatically built and
-      deployed too with Github Actions 😊. The repository is setup to be
-      automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊. The repository is setup to be automatically
-      built and deployed too with Github Actions 😊. The repository is setup to
-      be automatically built and deployed too with Github Actions 😊. The
-      repository is setup to be automatically built and deployed too with Github
-      Actions 😊. The repository is setup to be automatically built and deployed
-      too with Github Actions 😊.
-    </p>
+  <div class="title">
+    <h1>Mt. Fuji / 富士山</h1>
+    <h1>3,776 m</h1>
   </div>
+
+  <article class="info">
+    <h1>Hello / こんにちわ</h1>
+    <h2>
+      Come join me in climbing <a
+        href="https://en.wikipedia.org/wiki/Mount_Fuji">Mt. Fuji</a
+      > with this interactive experience.
+    </h2>
+    <h2 class="subtitle">Use the mouse to navigate the world.</h2>
+    <h3>Click + Drag to rotate</h3>
+    <h3>Right Click + Drag to pan</h3>
+    <h2 class="subtitle">
+      Click on the flag to get started and follow the path 🔴.
+    </h2>
+  </article>
 </div>
 
 <style>
@@ -136,7 +85,6 @@
     background: transparent;
     margin-top: 45px;
   }
-
   .scene {
     position: fixed;
     top: 0;
@@ -147,7 +95,15 @@
   .cols {
     display: flex;
     flex-flow: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    /* flex-wrap: nowrap; */
+  }
+  .title {
+    z-index: 999;
+    margin: 0.5em;
+    padding-left: 1em;
+    line-height: normal;
   }
   .info {
     z-index: 999;
@@ -161,7 +117,9 @@
     background-color: aliceblue;
 
     overflow-y: scroll;
-    height: 90vh;
+    /* height: 90vh; */
+    max-height: 90vh;
+    min-height: 20vh;
   }
   @media (max-width: 700px) {
     .cols {
