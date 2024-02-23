@@ -50,7 +50,7 @@
 </div>
 
 <!-- Mt. Fuji Title -->
-<div class="cols">
+<div class="rows">
   <div class="title">
     <h1>Mt. Fuji / 富士山</h1>
     <h1>3,776 m</h1>
@@ -80,7 +80,7 @@
     height: 100%;
   }
   /* for the space allocation of fuji title + card */
-  .cols {
+  .rows {
     display: flex;
     flex-flow: row;
     justify-content: space-between;

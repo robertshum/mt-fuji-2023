@@ -1,21 +1,37 @@
+/* card that holds location info / pictures */
 .card-info {
   z-index: 999;
   margin: 0.75em;
-
   padding: 2.5em;
+  outline: solid 0.25em rgb(255, 255, 255);
   border: 1px solid #ccc;
   border-radius: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: aliceblue;
-
   overflow-y: scroll;
-  /* height: 90vh; */
   max-height: 90vh;
   min-height: 20vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* top level title */
 .card-title {
   text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.2), 2px 2px 3px rgb(202, 202, 202);
+}
+
+/* container of figure */
+.card-default-img-container {
+  width: 100%;
+  margin: 0.5em auto 0.5em auto;
+}
+
+/* image defaults for cards */
+.card-default-img {
+  /* Set width to 100% of the parent container width */
+  width: 100%;
+  border-radius: 10px;
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* scrollbar */

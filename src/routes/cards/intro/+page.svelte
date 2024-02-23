@@ -6,13 +6,13 @@
   <article class="card-info">
     <h1 class="card-title">Hello / こんにちわ</h1>
     <h2>
-      Come join me in climbing <a
+      Come relive my journey me in climbing <a
         href="https://en.wikipedia.org/wiki/Mount_Fuji">Mt. Fuji</a
       > with this interactive experience.
     </h2>
-    <h2 class="subtitle">Use the mouse to navigate the world.</h2>
-    <h3>Click + Drag to rotate</h3>
-    <h3>Right Click + Drag to pan</h3>
+    <h2 class="subtitle">Use the mouse to navigate the mountain.</h2>
+    <h3>Click + Drag to rotate.</h3>
+    <h3>Right Click + Drag to pan.</h3>
     <h2 class="subtitle">
       Click on the flag to get started and follow the path 🔴.
     </h2>
@@ -23,6 +23,6 @@
   @import "../../../card.css";
 
   .card-info {
-    max-width: 500px;
+    max-width: 450px;
   }
 </style>
