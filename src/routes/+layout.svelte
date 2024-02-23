@@ -1,20 +1,63 @@
 <script lang="ts">
   import "../global.css";
   import { base } from "$app/paths";
+  import { onDestroy, onMount } from "svelte";
+  import NeedleEngine from "../components/NeedleEngine.svelte";
+  import { goto } from "$app/navigation";
+
+  // Add event listener when the component is mounted
+  // Do whatever you have to do to make TS happy.
+  const eventListenerCallback: EventListener = (event) => {
+    const customEvent = event as CustomEvent<App.ButtonEventData>;
+
+    // Update web app state based on received data
+    console.log("Received data from scene:", customEvent.detail);
+
+    const location = customEvent.detail.locationMarker;
+
+    // Navigate to new 'page/card'.  This will populate <slot>
+    goto(`${base}/cards/${location}`);
+  };
+
+  onMount(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("buttonData", eventListenerCallback);
+    }
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      window.removeEventListener("buttonData", eventListenerCallback);
+    }
+  });
 </script>
 
+<!-- Navigation -->
 <div class="app">
-  <div class="header">
+  <nav class="header">
+    <a href="{base}/cards/intro">"Home"</a>
+    <a href="{base}/cards/shinjuku">One</a>
     <a href="{base}/">Home</a>
     <a href="{base}/markdown">Markdown Page</a>
     <a href="{base}/regular">Regular Page</a>
     <a href="{base}/scenes">Scenes</a>
-  </div>
+  </nav>
 </div>
 
-<main>
+<!-- 3JS / Unity Scene -->
+<div class="scene">
+  <NeedleEngine />
+</div>
+
+<!-- Mt. Fuji Title -->
+<div class="cols">
+  <div class="title">
+    <h1>Mt. Fuji / 富士山</h1>
+    <h1>3,776 m</h1>
+  </div>
+  <!-- Dynamic Card Content -->
   <slot />
-</main>
+</div>
 
 <style>
   .app {
@@ -28,25 +71,27 @@
     z-index: 999;
     min-width: max-content;
   }
-
-  /* main {
-        position: fixed;
-        flex: 1 1 auto;
-        flex-flow: column;
-        display: flex;
-    } */
-
-  main {
+  /* Unity scene */
+  .scene {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    flex: 1 1 auto; /* Allow the main element to grow and shrink as needed */
-    flex-flow: column; /* Set the direction of the flex container to column */
-    display: flex; /* Establish a flex container */
   }
-
+  /* for the space allocation of fuji title + card */
+  .cols {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  /* fuji title */
+  .title {
+    z-index: 999;
+    margin: 0.5em;
+    padding-left: 1em;
+    line-height: normal;
+  }
   .header {
     top: 0.7em;
     z-index: 999;
