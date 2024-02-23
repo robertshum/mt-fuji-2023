@@ -7,9 +7,7 @@ declare global {
     // interface PageData {}
     // interface Platform {}
     interface ButtonEventData {
-      detail: {
-        locationMarker: number;
-      };
+      locationMarker: string;
     }
   }
 }

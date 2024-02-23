@@ -5,7 +5,7 @@ export class ButtonEvent extends Behaviour {
   speed: number = 1;
 
   @serializable()
-  locationMarker: number = 1;
+  locationMarker: string = '';
 
   start() {
     // logging this is useful for debugging in the browser. 
