@@ -6,7 +6,7 @@
   <article class="card-info">
     <h1 class="card-title">Hello / こんにちわ</h1>
     <h2>
-      Come relive my journey me in climbing <a
+      Come relive my journey in climbing <a
         href="https://en.wikipedia.org/wiki/Mount_Fuji">Mt. Fuji</a
       > with this interactive experience.
     </h2>
