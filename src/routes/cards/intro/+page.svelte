@@ -7,7 +7,8 @@
     <h1 class="card-title">Hello / こんにちわ</h1>
     <h2>
       Come relive my journey in climbing <a
-        href="https://en.wikipedia.org/wiki/Mount_Fuji">Mt. Fuji</a
+        href="https://en.wikipedia.org/wiki/Mount_Fuji"
+        target="_blank">Mt. Fuji</a
       > with this interactive experience.
     </h2>
     <h2 class="subtitle">Use the mouse to navigate the mountain.</h2>
