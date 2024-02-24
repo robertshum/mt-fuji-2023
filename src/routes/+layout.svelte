@@ -37,6 +37,7 @@
   <nav class="header">
     <a href="{base}/cards/intro">"Home"</a>
     <a href="{base}/cards/shinjuku">One</a>
+    <a href="{base}/cards/fujiHotel">Two</a>
     <a href="{base}/">Home</a>
     <a href="{base}/markdown">Markdown Page</a>
     <a href="{base}/regular">Regular Page</a>
