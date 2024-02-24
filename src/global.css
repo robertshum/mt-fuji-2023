@@ -55,6 +55,10 @@ h3 {
     font-size: 12px;
 }
 
+p {
+  margin: 0.5em auto 0.5em auto;
+}
+
 
 @media (max-width: 1000px) {
     h1 {
