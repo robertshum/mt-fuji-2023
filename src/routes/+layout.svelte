@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "tailwindcss/tailwind.css";
   import "../global.css";
   import { base } from "$app/paths";
   import { onDestroy, onMount } from "svelte";
