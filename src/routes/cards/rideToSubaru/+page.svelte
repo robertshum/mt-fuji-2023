@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import ProTip from "../../../components/ProTip.svelte";
   import img1 from "$lib/images/rideToSubaru/1.jpg";
 </script>
 
@@ -13,12 +14,10 @@
       the 5th station was easy! It's one bus that goes to the 5th station with
       stops along the way.
     </p>
-    <p>
-      Pro tip: if you want a seat on the bus, line up just before 6am at Fujisan
-      station.  Otherwise by the time you get to Kawaguchiko, there is a good
-      chance you will be standing for the trip.... and the ride is at least an
-      hour.
-    </p>
+    <ProTip
+      tip="If you want a seat on the bus, line up just before 6am at Fujisan
+    station.  Otherwise it might be full by the time you get to Kawaguchiko."
+    />
     <CardImage
       src={img1}
       alt="Ticket poster for Quick Ride to Mt. Fuji."
@@ -26,11 +25,9 @@
       link="https://info-fujikyu.quickride.jp/"
       linkCaption="Link to purchase tickets"
     />
-    <p>
-      Pro tip: You can purchase your tickets online from the site above.  Just
-      make sure you have internet connection when you board the bus to activate
-      it!
-    </p>
+    <ProTip
+      tip="Purchase online with the link ahead of time.  Make sure you have internet connection when you board the bus to activate it!"
+    />
   </article>
 </TransitionCardWrapper>
 
