@@ -1,5 +1,6 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
+  import CardImage from "../../../components/CardImage.svelte";
   import img1 from "$lib/images/rideToSubaru/1.jpg";
 </script>
 
@@ -18,18 +19,13 @@
       chance you will be standing for the trip.... and the ride is at least an
       hour.
     </p>
-    <figure class="card-default-img-container">
-      <img
-        class="card-default-img"
-        src={img1}
-        alt="Ticket poster for Quick Ride to Mt. Fuji."
-      />
-      <figcaption>
-        <a href="https://info-fujikyu.quickride.jp/" target="_blank"
-          >Link to purchase tickets</a
-        >
-      </figcaption>
-    </figure>
+    <CardImage
+      src={img1}
+      alt="Ticket poster for Quick Ride to Mt. Fuji."
+      caption=""
+      link="https://info-fujikyu.quickride.jp/"
+      linkCaption="Link to purchase tickets"
+    />
     <p>
       Pro tip: You can purchase your tickets online from the site above.  Just
       make sure you have internet connection when you board the bus to activate
