@@ -2,7 +2,7 @@
   export let tip: String;
 </script>
 
-<div role="alert" class="alert shadow-lg">
+<div role="alert" class="alert shadow-lg mt-1 mb-1">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"

@@ -40,6 +40,7 @@
     <a href="{base}/cards/shinjuku">1</a>
     <a href="{base}/cards/fujiHotel">2</a>
     <a href="{base}/cards/rideToSubaru">3</a>
+    <a href="{base}/cards/subaruStation">4</a>
     <a href="{base}/">Home</a>
     <a href="{base}/markdown">Markdown Page</a>
     <a href="{base}/regular">Regular Page</a>
