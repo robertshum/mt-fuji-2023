@@ -16,32 +16,47 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
+    <h1 class="card-title">From Taishi-kan to Tomoe-kan</h1>
+    <h2>Onward from 8th station to the original 8th station</h2>
+    <h2>3100-3300m</h2>
+    <h2>☀</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
-    </p>
-    <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
+      I will not lie my pacing was terrible.  I had to constantly stop to catch
+      my breath and take off my backpack because my back was starting to hurt. 
+      I tried adjusting my backpack before but maybe I didn't load my pack
+      properly. That's why I had time to take so many photos here!
     </p>
 
     <CardImage
       src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
+      alt="Sunny slope of Mt. Fuji 1"
+      caption="Lots of construction vehicles parked."
     />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
+    <CardImage src={img2} alt="Sunny slope of Mt. Fuji 2" />
+    <CardImage src={img3} alt="Sunny slope of Mt. Fuji 3" />
+    <CardImage src={img4} alt="Sunny slope of Mt. Fuji 4" />
     <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
+      src={img5}
+      alt="Sunny slope of Mt. Fuji 5"
+      caption="Very few people around at this point"
+    />
+    <CardImage src={img6} alt="Side view of building" />
+    <CardImage src={img7} alt="Mt. Fuji elevation sign 1" />
+    <CardImage
+      src={img8}
+      alt="Mt. Fuji elevation sign 1"
+      caption="Air feels thin at 3250m"
+    />
+    <CardImage src={img9} alt="Hiker window shopping" />
+    <CardImage
+      src={img10}
+      alt="Hiker dressed like a ninja"
+      caption="Found a 🐱‍👤"
+    />
+    <CardImage
+      src={img11}
+      alt="Stairs going up towards next station"
+      caption="Stairs stairs more stairs"
     />
   </article>
 </TransitionCardWrapper>

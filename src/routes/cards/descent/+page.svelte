@@ -14,33 +14,68 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
+    <h1 class="card-title">The Descent</h1>
+    <h2>It's time to run</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      I was already hiking for 7h so at this point my legs are jelly. But I was
+      reminding myself either suck it up or end up sleeping on the streets.
     </p>
+    <CardImage src={img1} alt="View of the descent of Mt. Fuji 1" />
+    <CardImage src={img2} alt="View of the descent of Mt. Fuji 2" />
+    <CardImage src={img3} alt="View of the descent of Mt. Fuji 3" />
     <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
+      Since I was running / jogging down the mountain, the front of my toes kept
+      jamming into the front of the shoe.
     </p>
-
+    <CardImage src={img4} alt="View of the descent of Mt. Fuji 4" />
+    <p>
+      My toes started to bruise and this is the part where my big toe nail broke
+      off and it started to bleed.
+    </p>
+    <CardImage src={img5} alt="Looking up at the hiking trail" />
+    <p>
+      I tripped and fell many times because the trail was rocky, sandy and it's
+      hard to get a good footing when you're jogging on a downhill slope.
+    </p>
+    <CardImage src={img6} alt="Looking up at the hiking trail" />
+    <p>
+      If you miss the last bus you are in trouble - there are no hotels at the
+      base of 5th station.  There are no vehicles, including taxis, at night
+      because access is closed.  Most likely one would have to stay at the
+      station at night until the first bus in the morning.
+    </p>
+    <CardImage src={img7} alt="Looking up at the hiking trail" />
+    <p>
+      I'm also too cheap to shell out 150 CAD for a taxi back home anyways. Here
+      are some stories of people stranded at 5th station:
+    </p>
+    <h2>
+      <a
+        href="https://www.japan-guide.com/forum/quereadisplay.html?0+178212"
+        target="_blank">Japan Guide</a
+      >
+    </h2>
+    <h2>
+      <a
+        href="https://www.reddit.com/r/JapanTravel/comments/15fon5g/mt_fuji_day_trip/"
+        target="_blank">Reddit</a
+      >
+    </h2>
+    <CardImage src={img8} alt="Looking up at the hiking trail" />
+    <p>
+      I really wish I had more time to enjoy the trek down.  The views were
+      better than the summit and the weather was great on this segment of the
+      hike!
+    </p>
     <CardImage
-      src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
+      src={img9}
+      alt="Looking up at the hiking trail"
+      caption="Here, hikers can take shelter in the man-made cutout in case of avalanches."
     />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
-    <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
-    />
+    <p>
+      Good news is that I was on pace to catch one of the last few busses back
+      to town.
+    </p>
   </article>
 </TransitionCardWrapper>
 

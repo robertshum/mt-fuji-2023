@@ -27,7 +27,7 @@
     <CardImage
       src={img2}
       alt="2 tickets to Mt Fujisan station."
-      caption="Round trip tickets to and from Busta Shinjuku and Mt. Fuji station was about 4,400 Yen / Under $44 CAD."
+      caption="Round trip tickets to and from Busta Shinjuku and Mt. Fuji station was about 4,400 ¥ / Under $44 CAD."
     />
     <CardImage
       src={img3}

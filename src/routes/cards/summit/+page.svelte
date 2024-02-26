@@ -10,33 +10,42 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
+    <h1 class="card-title">Summit</h1>
+    <h2>3:00pm</h2>
+    <h2>3776m</h2>
+    <h2>☁</h2>
+    <CardImage src={img1} alt="Tori gate picture" />
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      I finally reached the gate and I knew the summit was close by!  It's just
+      a few more stairs.
     </p>
+    <CardImage src={img2} alt="Another tori gate picture" />
     <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
+      When I reached the summit, it looked like everything was under
+      construction.
     </p>
-
-    <CardImage
-      src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
-    />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
+    <CardImage src={img3} alt="Foggy summit" />
+    <p>
+      Most of the huts looked closed and I didn't see any shops to get my final
+      stamp.
+    </p>
     <CardImage
       src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
+      alt="Foggy summit 2"
+      caption="Why is everything closed!?"
     />
+    <p>
+      It didn't really matter because I reached the summit!!! I took some time
+      to rest, took a few pictures and relished in my achievement.
+    </p>
+    <CardImage src={img5} alt="Summit with signpost in fog" />
+    <p>
+      Of course this was short lived because when I checked the time it was
+      3:07pm, and the last bus to go back to town leaves at 6:40pm.  That means
+      I have just over 3h 30m for the descent.  It took me just under 7h to get
+      to the summit!!!
+    </p>
+    <h2>Time to Panic 😱</h2>
   </article>
 </TransitionCardWrapper>
 

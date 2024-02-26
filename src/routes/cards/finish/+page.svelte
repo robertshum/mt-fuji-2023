@@ -6,33 +6,37 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
+    <h1 class="card-title">Finishing the Journey 🏁</h1>
+    <h2>5:45pm</h2>
+    <h2>2300</h2>
     <h2>🌧</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      After stumbling for a few more hours, I made it back.  The weather at the
+      base was pouring and I was soaked.  I didn't bring a change of clothes but
+      at least I don't have to sleep on the streets tonight! Missed the 2nd last
+      bus but made it for the last one (6:40pm).
     </p>
-    <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
-    </p>
-
     <CardImage
       src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
+      alt="bus to fujisan station"
+      caption="Last bus back to Fujisan station."
     />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
-    <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
-    />
+    <h2 class="subtitle">Some fun facts from my hike:</h2>
+    <ul class="list-disc mt-1 mb-5">
+      <li class="ml-4">The summit took <strong>6h 47m</strong>.</li>
+      <li class="ml-4">The descent took <strong>2h 38m</strong> 🏃🏽‍♂️💨.</li>
+      <li class="ml-4">
+        Total journey time (with breaks): <strong>9h 25m</strong>.
+      </li>
+      <li class="ml-4">Started at <strong>8:20am</strong>.</li>
+      <li class="ml-4">Finished at <strong>5:45pm</strong>.</li>
+      <li class="ml-4">
+        I brought <strong>2L</strong> of water but didn't finish it 🐪.
+      </li>
+      <li class="ml-4">I never needed to use the washroom during my hike.</li>
+      <li class="ml-4">The base temperature was roughly <strong>18C</strong></li>
+      <li class="ml-4">The summit temperature was roughly <strong>0-5C</strong>, felt colder with the wind.</li>
+    </ul>
   </article>
 </TransitionCardWrapper>
 

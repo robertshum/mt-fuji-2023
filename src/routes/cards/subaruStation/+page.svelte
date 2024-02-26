@@ -20,13 +20,13 @@
       mountain huts along the way.
     </p>
     <p>
-      There are also toilets you can use but it costs 100-150 Yen and there is
+      There are also toilets you can use but it costs 100-150 ¥ and there is
       no plumbing... sewage gets washed down with foam!
     </p>
 
     <CardImage src={img1} alt="Subaru station outside" />
     <ProTip
-      tip="Bring lots of 100 Yen coins.  Mountain huts don't accept CC and the cost of snacks and uses of washrooms are in 100 Yen denominations."
+      tip="Bring lots of 100 ¥ coins.  Mountain huts don't accept CC and the cost of snacks and uses of washrooms are in 100 ¥ denominations."
     />
     <ProTip
       tip="Apparently there are coin lockers at the station - good for storing clean change of clothes."
@@ -34,7 +34,7 @@
     <CardImage
       src={img2}
       alt="Mt. Fuji water for sale"
-      caption="Fuji water on sale for 500 yen.  Is it legit?  Hmm..."
+      caption="Fuji water on sale for 500 ¥.  Is it legit?  Hmm..."
     />
     <CardImage src={img3} alt="Picture of me outside the entrance" />
     <CardImage

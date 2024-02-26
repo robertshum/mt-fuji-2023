@@ -7,33 +7,27 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
+    <h1 class="card-title">9th Station</h1>
+    <h2>2pm</h2>
+    <h2>3500m</h2>
+    <h2>☁</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      The 'station' is basically an abandoned wooden house with no one inside.
     </p>
-    <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
-    </p>
-
     <CardImage
       src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
+      alt="9th Station"
     />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
-    <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
-    />
+    <p>
+      At this point, everyone, including myself started to double up on clothing
+      because the temperature must have been close to 0 C.  With the wind, it
+      felt even colder.
+    </p>
+    <CardImage src={img2} alt="Spooky fog near 9th station" caption="Spooky" />
+    <p>
+      Earlier in the hike I was upset for bringing all the extra clothing but it
+      really paid off.  I rested for a short period and continued trekking.  The summit was closeby!
+    </p>
   </article>
 </TransitionCardWrapper>
 

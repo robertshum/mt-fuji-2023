@@ -8,33 +8,20 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
+    <h1 class="card-title">Onwards to 8th Station</h1>
     <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      The rain stopped but the hiking path became a bit rocky here.  Some
+      scrambling is involved.
     </p>
     <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
+      I am also cursing myself for packing so much... it feels like my bag
+      weighs a ton.
     </p>
 
-    <CardImage
-      src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
-    />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
-    <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
-    />
+    <CardImage src={img1} alt="Green hillside on Mt. Fuji hillside 1" />
+    <CardImage src={img2} alt="Green hillside on Mt. Fuji hillside 2" />
+    <CardImage src={img3} alt="Green hillside on Mt. Fuji hillside 3" />
   </article>
 </TransitionCardWrapper>
 

@@ -11,12 +11,12 @@
     <img class="card-default-img" {src} {alt} />
     {#if caption}
       <figcaption>
-        {caption}
+        <em>{caption}</em>
       </figcaption>
     {/if}
     {#if link}
       <figcaption>
-        <a href={link} target="_blank">{linkCaption}</a>
+        <a href={link} target="_blank"><em>{linkCaption}</em></a>
       </figcaption>
     {/if}
   </figure>

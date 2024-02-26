@@ -8,33 +8,25 @@
 
 <TransitionCardWrapper>
   <article class="card-info">
-    <h1 class="card-title">6th Station/Mt. Fuji Safety Guidance Center</h1>
-    <h2>930am</h2>
-    <h2>2390m</h2>
-    <h2>🌧</h2>
+    <h1 class="card-title">Original 8th Station</h1>
+    <h2>Tomoe Kan / Fujisan Hotel</h2>
+    <h2>1:20pm</h2>
+    <h2>3300m</h2>
+    <h2>☁</h2>
     <p>
-      The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain.
+      Made it to the original 8th station.  I didn't want to stop at every
+      single mountain hut to get stamps because that would cost too much.
     </p>
     <p>
-      There were waves of hikers coming back from the hike, presumably the
-      morning crowd where they saw the sunrise.  It was kind of funny and sad at
-      the same time, looking at their facial expressions... they all looked
-      exhausted and fatigued!
+      I was also running out of time because I still had to hike back down.  I really did not want to miss the last bus to back to town.  So, I took a few pictures and kept going up.
     </p>
 
     <CardImage
       src={img1}
-      alt="6th station"
-      caption="First stop - only 1-2h hike from the entrance."
+      alt="Looking downhill near the original 8th station"
     />
-    <CardImage src={img2} alt="Hikers resting." />
-    <CardImage src={img3} alt="Looking up at the hiking trail" />
-    <CardImage
-      src={img4}
-      alt="Fog resting on the trail"
-      caption="The fog started to pick up as I continue hiking."
-    />
+    <CardImage src={img2} alt="Tomoekan" />
+    <CardImage src={img3} alt="Fujisan Hotel and restaurant" />
   </article>
 </TransitionCardWrapper>
 
