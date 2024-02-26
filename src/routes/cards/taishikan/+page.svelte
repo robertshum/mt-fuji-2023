@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import ProTip from "../../../components/ProTip.svelte";
   import img1 from "$lib/images/taishikan/1.png";
   import img2 from "$lib/images/taishikan/2.png";
@@ -15,9 +16,7 @@
   <article class="card-info">
     <h1 class="card-title">8th Station</h1>
     <h2>Taishi-kan</h2>
-    <h2>12 Noon</h2>
-    <h2>3100m</h2>
-    <h2>☀</h2>
+    <CardStat time="12:00pm" elevation="3100m" weather="sunny" />
     <p>
       It's at this point I think some form of elevation sickness started to kick
       in.  I didn't feel nauseous or get any headaches.  However I can only walk

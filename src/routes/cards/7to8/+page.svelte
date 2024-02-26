@@ -9,7 +9,6 @@
 <TransitionCardWrapper>
   <article class="card-info">
     <h1 class="card-title">Onwards to 8th Station</h1>
-    <h2>930am</h2>
     <p>
       The rain stopped but the hiking path became a bit rocky here.  Some
       scrambling is involved.

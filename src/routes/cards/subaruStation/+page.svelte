@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import ProTip from "../../../components/ProTip.svelte";
   import img1 from "$lib/images/subaruStation/1.png";
   import img2 from "$lib/images/subaruStation/2.jpg";
@@ -12,16 +13,15 @@
   <article class="card-info">
     <h1 class="card-title">5th Station/Fuji Subaru Station</h1>
     <h2>August 22nd, 2023</h2>
-    <h2>2300m</h2>
-    <h2>Raining</h2>
+    <CardStat time="7:20am" elevation="2300m" weather="rainy" />
     <p>
       There is a gift shop where you can purchase last minute items for your
       trip. I purchased a walking stick where you can collect stamps on many
       mountain huts along the way.
     </p>
     <p>
-      There are also toilets you can use but it costs 100-150 ¥ and there is
-      no plumbing... sewage gets washed down with foam!
+      There are also toilets you can use but it costs 100-150 ¥ and there is no
+      plumbing... sewage gets washed down with foam!
     </p>
 
     <CardImage src={img1} alt="Subaru station outside" />
@@ -48,7 +48,7 @@
     </p>
     <p>
       I took my sweet time getting ready and by the time I started the hike it
-      was 8:20am and I saw no one else from my bus ride 🙈.
+      was <strong>8:20am</strong> and I saw no one else from my bus ride 🙈.
     </p>
   </article>
 </TransitionCardWrapper>

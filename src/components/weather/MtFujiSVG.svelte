@@ -1,0 +1,1 @@
+<!-- https://www.svgrepo.com/svg/299922/fuji-mountain-japan -->

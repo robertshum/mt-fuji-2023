@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import img1 from "$lib/images/summit/1.jpg";
   import img2 from "$lib/images/summit/2.png";
   import img3 from "$lib/images/summit/3.png";
@@ -11,9 +12,7 @@
 <TransitionCardWrapper>
   <article class="card-info">
     <h1 class="card-title">Summit</h1>
-    <h2>3:00pm</h2>
-    <h2>3776m</h2>
-    <h2>☁</h2>
+    <CardStat time="3:00pm" elevation="~3776m" weather="cloudy" />
     <CardImage src={img1} alt="Tori gate picture" />
     <p>
       I finally reached the gate and I knew the summit was close by!  It's just

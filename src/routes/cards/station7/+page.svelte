@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import img1 from "$lib/images/station7/1.png";
   import img2 from "$lib/images/station7/2.png";
   import img3 from "$lib/images/station7/3.png";
@@ -10,9 +11,7 @@
 <TransitionCardWrapper>
   <article class="card-info">
     <h1 class="card-title">7th Station/Tomoekan</h1>
-    <h2>10:30am</h2>
-    <h2>2800m</h2>
-    <h2>🌧</h2>
+    <CardStat time="10:30am" elevation="2800m" weather="rainy" />
     <p>
       Now the hike is starting to get more challenging.  The elevation is
       started to get more steeper but the rain hasn't stopped.  I am starting to

@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import img1 from "$lib/images/trekToTomoekan/1.png";
   import img2 from "$lib/images/trekToTomoekan/2.png";
   import img3 from "$lib/images/trekToTomoekan/3.png";
@@ -18,8 +19,7 @@
   <article class="card-info">
     <h1 class="card-title">From Taishi-kan to Tomoe-kan</h1>
     <h2>Onward from 8th station to the original 8th station</h2>
-    <h2>3100-3300m</h2>
-    <h2>☀</h2>
+    <CardStat time="12:30pm" elevation="3100m - 3300m" weather="sunny" />
     <p>
       I will not lie my pacing was terrible.  I had to constantly stop to catch
       my breath and take off my backpack because my back was starting to hurt. 

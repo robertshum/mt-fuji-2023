@@ -1,6 +1,7 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
   import CardImage from "../../../components/CardImage.svelte";
+  import CardStat from "../../../components/CardStat.svelte";
   import img1 from "$lib/images/station9/1.jpg";
   import img2 from "$lib/images/station9/2.png";
 </script>
@@ -8,9 +9,7 @@
 <TransitionCardWrapper>
   <article class="card-info">
     <h1 class="card-title">9th Station</h1>
-    <h2>2pm</h2>
-    <h2>3500m</h2>
-    <h2>☁</h2>
+    <CardStat time="2:00pm" elevation="3500m" weather="cloudy" />
     <p>
       The 'station' is basically an abandoned wooden house with no one inside.
     </p>
