@@ -1,5 +1,6 @@
 <script>
   import TransitionCardWrapper from "../../../components/TransitionCardWrapper.svelte";
+  import CardImage from "../../../components/CardImage.svelte";
   import img1 from "$lib/images/shinjuku/1.png";
   import img2 from "$lib/images/shinjuku/2.png";
   import img3 from "$lib/images/shinjuku/3.png";
@@ -18,38 +19,21 @@
       would come early in the morning and drive us directly to Fuji Subaru Line
       5th Station.
     </p>
-    <figure class="card-default-img-container">
-      <img
-        class="card-default-img"
-        src={img1}
-        alt="Busta Shinjuku Station Waiting area."
-      />
-      <figcaption>
-        To buy the tickets to Mt Fuji Station, which was close to my hotel, we
-        have to go to Busta Shinjuku, which was across the street from Shinjuku
-        station.
-      </figcaption>
-    </figure>
-    <figure class="card-default-img-container">
-      <img
-        class="card-default-img"
-        src={img2}
-        alt="Busta Shinjuku Station Waiting area."
-      />
-      <figcaption>
-        Round trip tickets to and from Busta Shinjuku and Mt. Fuji station was about 4,400 Yen / Under $44 CAD.
-      </figcaption>
-    </figure>
-    <figure class="card-default-img-container">
-      <img
-        class="card-default-img"
-        src={img3}
-        alt="Busta Shinjuku Station Waiting area."
-      />
-      <figcaption>
-        The highway express bus took about 2h.
-      </figcaption>
-    </figure>
+    <CardImage
+      src={img1}
+      alt="Busta Shinjuku Station Waiting area."
+      caption="To buy the tickets to Mt Fuji Station, which was close to my hotel, we have to go to Busta Shinjuku, which was across the street from Shinjuku station."
+    />
+    <CardImage
+      src={img2}
+      alt="2 tickets to Mt Fujisan station."
+      caption="Round trip tickets to and from Busta Shinjuku and Mt. Fuji station was about 4,400 ¥ / Under $44 CAD."
+    />
+    <CardImage
+      src={img3}
+      alt="inside the highway express bus."
+      caption="The highway express bus took about 2h."
+    />
   </article>
 </TransitionCardWrapper>
 

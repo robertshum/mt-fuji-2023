@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "tailwindcss/tailwind.css";
   import "../global.css";
   import { base } from "$app/paths";
   import { onDestroy, onMount } from "svelte";
@@ -36,7 +37,22 @@
 <div class="app">
   <nav class="header">
     <a href="{base}/cards/intro">"Home"</a>
-    <a href="{base}/cards/shinjuku">One</a>
+    <a href="{base}/cards/shinjuku">1</a>
+    <a href="{base}/cards/fujiHotel">2</a>
+    <a href="{base}/cards/rideToSubaru">3</a>
+    <a href="{base}/cards/subaruStation">4</a>
+    <a href="{base}/cards/station6">5</a>
+    <a href="{base}/cards/station7">6</a>
+    <a href="{base}/cards/7to8">7</a>
+    <a href="{base}/cards/taishikan">8</a>
+    <a href="{base}/cards/trekToTomoekan">9</a>
+    <a href="{base}/cards/tomoekan">10</a>
+    <a href="{base}/cards/toStation9">11</a>
+    <a href="{base}/cards/station9">12</a>
+    <a href="{base}/cards/summit">13</a>
+    <a href="{base}/cards/descent">14</a>
+    <a href="{base}/cards/finish">15</a>
+    <a href="{base}/cards/backToTokyo">16</a>
     <a href="{base}/">Home</a>
     <a href="{base}/markdown">Markdown Page</a>
     <a href="{base}/regular">Regular Page</a>
@@ -60,6 +76,8 @@
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;600&display=swap');
+  
   .app {
     position: fixed;
     bottom: 0;
@@ -91,6 +109,7 @@
     margin: 0.5em;
     padding-left: 1em;
     line-height: normal;
+    height: fit-content;
   }
   .header {
     top: 0.7em;
@@ -105,7 +124,7 @@
     margin-bottom: 1em;
   }
   .header a {
-    margin: 0 1rem;
+    margin: 0 0.75rem;
     font-weight: bold;
   }
 </style>
