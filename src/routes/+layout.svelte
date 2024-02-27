@@ -23,7 +23,8 @@
     const location = customEvent.detail.locationMarker;
 
     // Navigate to new 'page/card'.  This will populate <slot>
-    goto(`${base}/cards/${location}`);
+    activeItem = `${base}/cards/${location}`;
+    goto(activeItem);
   };
 
   onMount(() => {
