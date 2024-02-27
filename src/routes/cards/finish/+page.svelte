@@ -46,8 +46,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

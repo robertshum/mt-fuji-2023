@@ -17,18 +17,14 @@
     <h2 class="subtitle">
       Click on the flag to get started and follow the path 🔴.
     </h2>
-    <p>
+    <h1>
       The high level plan was to catch the very first bus to 5th station, hike
       Mt. Fuji, descend, and bus back to the hotel, in 1 day without sleeping in
       mountain huts.
-    </p>
+    </h1>
   </article>
 </TransitionCardWrapper>
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 450px;
-  }
 </style>
