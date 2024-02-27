@@ -7,6 +7,9 @@
   import { goto } from "$app/navigation";
   import { getNavigationMap } from "../scripts/navigation/menu";
 
+  // current selected nav menu
+  let activeItem = "";
+
   const navMap = getNavigationMap();
 
   // Add event listener when the component is mounted
@@ -34,6 +37,12 @@
       window.removeEventListener("buttonData", eventListenerCallback);
     }
   });
+
+  const setActiveItem = (url: string) => {
+    activeItem = url;
+    console.log("activeItem", activeItem);
+    goto(url);
+  };
 </script>
 
 <div class="rows">
@@ -47,19 +56,21 @@
           <p class="inline text-sky-800 font-extrabold relative top-[0.15em]">
             Mt. FUJI
           </p>
-          <p class="text-md font-medium">富士山/3776m</p>
+          <p class="text-md text-red-900 font-medium">富士山/3776m</p>
         </span>
       </div>
       <!-- Navigation Menu -->
       <ul class="menu">
         {#each navMap as navItem}
-          <li
-            class="
-          hover:bg-lime-50
-          hover:border
-          hover:rounded-lg"
-          >
-            <a href={navItem.value}>{navItem.key}</a>
+          <li>
+            <button
+              class={activeItem === navItem.value
+                ? "active"
+                : "hover:bg-lime-50 hover:border hover:rounded-lg"}
+              on:click={() => setActiveItem(navItem.value)}
+            >
+              {navItem.key}
+            </button>
           </li>
         {/each}
       </ul>
@@ -99,6 +110,6 @@
     flex-flow: row;
     width: 100%;
     height: 90%;
-    padding: 1.5em
+    padding: 1.5em;
   }
 </style>

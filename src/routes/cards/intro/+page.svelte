@@ -15,7 +15,7 @@
     <h3>Click + Drag to rotate.</h3>
     <h3>Right Click + Drag to pan.</h3>
     <h2 class="subtitle">
-      Click on the flag to get started and follow the path 🔴.
+      Click on the 🚩 to show detailed info and follow the dotted path 🔴🔴🔴.
     </h2>
     <h1>
       The high level plan was to catch the very first bus to 5th station, hike
