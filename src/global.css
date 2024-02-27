@@ -9,7 +9,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
-
     margin: 0;
     height: 100vh;
 }
@@ -23,7 +22,7 @@ a {
     color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
     color: black;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 a:hover {
@@ -34,13 +33,13 @@ a:hover {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 19px;
     line-height: 1.1em;
     margin: .5em 0;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.3em;
     margin: .5em 0;
 }
