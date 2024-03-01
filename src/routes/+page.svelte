@@ -1,5 +1,5 @@
 <script>
-  import Intro from "../routes/cards/intro/+page.svelte";
+  import About from "../routes/cards/about/+page.svelte";
 </script>
 
-<Intro />
+<About />

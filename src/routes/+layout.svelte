@@ -68,6 +68,13 @@
       </div>
       <!-- Navigation Menu -->
       <ul class="menu">
+        <li>
+          <button class="hover:bg-lime-50 hover:border hover:rounded-lg" on:click={()=>goto(`${base}/cards/about`)}
+            ><strong>About</strong></button
+          >
+        </li>
+      </ul>
+      <ul class="menu">
         {#each navMap as navItem}
           <li>
             <button
