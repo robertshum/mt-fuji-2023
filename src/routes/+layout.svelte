@@ -39,7 +39,13 @@
     }
   });
 
-  const setActiveItem = (url: string) => {
+  const setActiveItem = (eventName: string, url: string) => {
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(
+        new CustomEvent(`goToMarker-${eventName}`, { detail: { value: true } }),
+      );
+    }
+
     activeItem = url;
     console.log("activeItem", activeItem);
     goto(url);
@@ -68,7 +74,7 @@
               class={activeItem === navItem.value
                 ? "active"
                 : "hover:bg-lime-50 hover:border hover:rounded-lg"}
-              on:click={() => setActiveItem(navItem.value)}
+              on:click={() => setActiveItem(navItem.eventName, navItem.value)}
             >
               {navItem.key}
             </button>

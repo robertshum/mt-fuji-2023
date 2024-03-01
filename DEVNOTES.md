@@ -14,3 +14,25 @@ For some reason if I stack custom components (See CardImage) where the root elem
 Example: if I have 3 card images, the first 2 will show.  If I have 4, it shows the first 3.
 
 A 'fix' is use a div, or any other root element, to wrap around the Figure.
+
+### Attributions:
+
+Tori Gate Model - "Torii (Low Poly)" (https://skfb.ly/oPALX) by game_travel is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Mt. Fuji / Fujisan (Japan)
+by taisukef (https://www.thingiverse.com/taisukef)
+is licensed under the Creative Commons - Attribution license (http://creativecommons.org/licenses/by/4.0/)
+
+Cartoon FX
+Asset Store
+https://assetstore.unity.com/packages/vfx/particles/epic-toon-fx-57772
+
+Simple Town
+Asset Store
+https://assetstore.unity.com/packages/3d/environments/urban/simple-town-cartoon-assets-43500
+
+Low Poly Plants Pack from Creative Trio (https://creativetrio.art/2022/08/29/stylized-low-poly-plants-pack-02/)
+is licensed under the Creative Commons - Attribution license (http://creativecommons.org/licenses/by/4.0/)
+
+
+
