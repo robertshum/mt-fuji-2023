@@ -11,7 +11,7 @@
     <h1 class="card-title">9th Station</h1>
     <CardStat time="2:00pm" elevation="3500m" weather="cloudy" />
     <p>
-      The 'station' is basically an abandoned wooden house with no one inside.
+      The 'station' is basically an abandoned wooden house with no one inside.  Lots of people resting before the final 400m to reach the top.
     </p>
     <CardImage
       src={img1}
@@ -20,7 +20,7 @@
     <p>
       At this point, everyone, including myself started to double up on clothing
       because the temperature must have been close to 0 C.  With the wind, it
-      felt even colder.
+      felt even colder 🧊🥶.
     </p>
     <CardImage src={img2} alt="Spooky fog near 9th station" caption="Spooky" />
     <p>
@@ -32,8 +32,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

@@ -20,11 +20,8 @@
     <p>
       It's at this point I think some form of elevation sickness started to kick
       in.  I didn't feel nauseous or get any headaches.  However I can only walk
-      10-20 steps before stopping to catch my own breath.
-    </p>
-    <p>
-      The good news is that the weather cleared up and I felt like I can keep
-      going.
+      10-20 steps before stopping to catch my own breath. The good news is that
+      the weather cleared up and I felt like I could keep going.
     </p>
 
     <CardImage
@@ -36,13 +33,13 @@
     <CardImage src={img3} alt="8th station 2" />
     <CardImage src={img4} alt="8th station shop" />
     <ProTip
-      tip="Food and drinks get more expensive as you go up in elevation.  Buy most of your supplies before you climb!"
+      tip="Food and drinks get more expensive as you climb up.  Buy most of your supplies before your hike to save money!"
     />
     <CardImage src={img5} alt="8th station shop closeup" />
     <CardImage src={img6} alt="8th station shop with food selection" />
-    <h2>What's for sale:</h2>
+
     <div>
-      <!-- <div class="overflow-x-auto"> -->
+      <h1 class="mt-5">What's for sale:</h1>
       <table class="table mb-5 mt-5">
         <!-- head -->
         <thead>
@@ -98,8 +95,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

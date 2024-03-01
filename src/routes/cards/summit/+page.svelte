@@ -16,17 +16,20 @@
     <CardImage src={img1} alt="Tori gate picture" />
     <p>
       I finally reached the gate and I knew the summit was close by!  It's just
-      a few more stairs.
+      a few more stairs. The top was so close but every step felt laborious.
     </p>
     <CardImage src={img2} alt="Another tori gate picture" />
     <p>
       When I reached the summit, it looked like everything was under
-      construction.
+      construction. I barely saw any other hikes and figured they just rested
+      for a short period and started going back down.
     </p>
     <CardImage src={img3} alt="Foggy summit" />
     <p>
       Most of the huts looked closed and I didn't see any shops to get my final
-      stamp.
+      stamp... this bothered me because I would argue that this is the most
+      important stamp to get. I talked to 2 other hikers who also hiked on the
+      same day and they also could not get the final stamp.
     </p>
     <CardImage
       src={img4}
@@ -40,9 +43,10 @@
     <CardImage src={img5} alt="Summit with signpost in fog" />
     <p>
       Of course this was short lived because when I checked the time it was
-      3:07pm, and the last bus to go back to town leaves at 6:40pm.  That means
-      I have just over 3h 30m for the descent.  It took me just under 7h to get
-      to the summit!!!
+      <strong>3:07pm</strong>, and the last bus to go back to town leaves at
+      <strong>6:40pm. </strong>
+      That means I have just over <strong>3h 30m</strong> for the descent.  It
+      took me just under <strong>7h</strong> to get to the summit!!!
     </p>
     <h2>Time to Panic 😱</h2>
   </article>
@@ -50,8 +54,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

@@ -14,10 +14,7 @@
     <CardStat time="9:30am" elevation="2390m" weather="thunderRain" />
     <p>
       The initial trek was very forgiving.  Very flat surface but it was pouring
-      rain... with thunder.
-    </p>
-    <p>
-      There were waves of hikers coming back from the hike, presumably the
+      rain... with some thunder.  There were waves of hikers coming back from the hike, presumably the
       morning crowd where they saw the sunrise.  It was kind of funny and sad at
       the same time, looking at their facial expressions... they all looked
       exhausted and fatigued!
@@ -40,8 +37,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

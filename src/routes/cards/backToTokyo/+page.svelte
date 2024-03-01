@@ -44,15 +44,11 @@
       In the end I highly recommend climbing Mt. Fuji at least once!  It's
       doable in a day or two and it's very hard to get lost.  There are signs
       everywhere and the trail is very well maintained. The sense of
-      accomplishment when you finish is hard to describe.
+      accomplishment when you finish is hard to describe.  Thank you for joining me in my journey.
     </p>
   </article>
 </TransitionCardWrapper>
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>

@@ -32,7 +32,7 @@
       <li class="ml-4">
         I brought <strong>2L</strong> of water but didn't finish it 🐪.
       </li>
-      <li class="ml-4">I never needed to use the washroom during my hike.</li>
+      <li class="ml-4">I only used the washroom once, at the entrance.</li>
       <li class="ml-4">
         The base temperature was roughly <strong>18C</strong>
       </li>
@@ -46,8 +46,4 @@
 
 <style>
   @import "../../../card.css";
-
-  .card-info {
-    max-width: 550px;
-  }
 </style>
