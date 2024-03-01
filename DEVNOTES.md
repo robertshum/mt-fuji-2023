@@ -15,24 +15,22 @@ Example: if I have 3 card images, the first 2 will show.  If I have 4, it shows 
 
 A 'fix' is use a div, or any other root element, to wrap around the Figure.
 
-### Attributions:
-
-Tori Gate Model - "Torii (Low Poly)" (https://skfb.ly/oPALX) by game_travel is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-Mt. Fuji / Fujisan (Japan)
-by taisukef (https://www.thingiverse.com/taisukef)
-is licensed under the Creative Commons - Attribution license (http://creativecommons.org/licenses/by/4.0/)
-
-Cartoon FX
-Asset Store
-https://assetstore.unity.com/packages/vfx/particles/epic-toon-fx-57772
-
-Simple Town
-Asset Store
-https://assetstore.unity.com/packages/3d/environments/urban/simple-town-cartoon-assets-43500
-
-Low Poly Plants Pack from Creative Trio (https://creativetrio.art/2022/08/29/stylized-low-poly-plants-pack-02/)
-is licensed under the Creative Commons - Attribution license (http://creativecommons.org/licenses/by/4.0/)
 
 
 
+
+*This is a SvelteKit project adding the needle-engine web component* 
+
+→ [**Live demo**](https://needle-engine.github.io/sveltekit-sample/) automatically build and deployed via github actions
+
+## Needle Engine Configuration
+
+- [`needle.config.json`](./needle.config.json)  
+  Added the `baseUrl` config to `assets` to change codegen (`src/generated/gen`) to point to the local server relative url
+- [`svelte.config.js`](./svelte.config.js)  
+  Defines `paths.base` for deployment.  
+  Uses `adapter-static` currently to produce static pages that can be uploaded anywhere. Adjust it for your needs.
+
+
+## Github Pages Instructions
+To use github pages go to [Settings/Pages](settings/pages) and set the **Build and Deployment** source to *Github Actions*. Now you can push new versions to this repository to trigger an automatic build and deployment action to be hosted on github pages. A deployment can also be triggered manually on the [Deployment Action page](./actions/workflows/deploy.yml)
