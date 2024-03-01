@@ -13,8 +13,8 @@
     <h1 class="card-title">7th Station/Tomoekan</h1>
     <CardStat time="10:30am" elevation="2800m" weather="rainy" />
     <p>
-      Now the hike is starting to get more challenging.  The elevation is
-      started to get more steeper but the rain hasn't stopped.  I am starting to
+      Now the hike is starting to get more challenging.  The elevation has
+      started to get steeper but the rain hasn't stopped.  I am starting to
       discover my jacket isn't 100% waterproof.
     </p>
     <CardImage
@@ -31,7 +31,7 @@
       caption="Good thing I have a digital copy on my phone."
     />
     <p>
-      They handed out paper maps at the 6th station but I didn't take care of it. 😅
+      They handed out paper maps at the 6th station but the rain got it. 😅
     </p>
   </article>
 </TransitionCardWrapper>
