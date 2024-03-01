@@ -1,4 +1,4 @@
-import { Behaviour, Button, Camera, OrbitControls, serializable } from "@needle-tools/engine";
+import { Behaviour, OrbitControls, serializable } from "@needle-tools/engine";
 import { Object3D } from "three";
 
 export class ButtonEvent extends Behaviour {
@@ -6,7 +6,7 @@ export class ButtonEvent extends Behaviour {
   target!: Object3D;
 
   @serializable(OrbitControls)
-  oc!: OrbitControls;
+  orbitControls!: OrbitControls;
 
   @serializable()
   locationMarker: string = '';
@@ -18,14 +18,12 @@ export class ButtonEvent extends Behaviour {
     // You can open the developer console (F12) to see what data your component contains
     console.log(this);
 
-
-
-
     // Look at camera
     window.addEventListener(`goToMarker-${this.locationMarker}`, () => {
 
       console.log(`fired goToMarker-${this.locationMarker}`);
-      this.oc.setCameraAndLookTarget(this.target);
+      this.orbitControls.setCameraTargetPosition(this.target.transform);
+      this.orbitControls.setLookTargetPosition(this.gameObject.transform);
     });
   }
 
