@@ -66,7 +66,14 @@
           <p class="text-md text-red-900 font-medium">富士山/3776m</p>
         </span>
       </div>
-      <!-- Navigation Menu -->
+      <!-- About Button -->
+      <ul class="menu">
+        <li>
+          <button class="hover:bg-lime-50 hover:border hover:rounded-lg" on:click={()=>goto(`${base}`)}
+            ><strong>About</strong></button
+          >
+        </li>
+      </ul>
       <ul class="menu">
         {#each navMap as navItem}
           <li>

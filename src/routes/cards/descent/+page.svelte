@@ -15,7 +15,7 @@
 <TransitionCardWrapper>
   <article class="card-info">
     <h1 class="card-title">The Descent</h1>
-    <h2>It's time to run</h2>
+    <h2>It's time to run 🏃🏽‍♂️💨💨💨</h2>
     <p>
       I was already hiking for 7h so at this point my legs are jelly. But I was
       reminding myself either suck it up or end up sleeping on the streets.
