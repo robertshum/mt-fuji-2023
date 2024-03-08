@@ -23,3 +23,20 @@ const getNavigationMap = () => {
 };
 
 export const navigationMap = getNavigationMap();
+
+// index for > < buttons in responsive design
+let cardIndex = 0;
+
+export const getPreviousCard = () => {
+  if (cardIndex !== 0) {
+    cardIndex--;
+  }
+  return navigationMap[cardIndex];
+};
+
+export const getNextCard = () => {
+  if (cardIndex !== navigationMap.length - 1) {
+    cardIndex++;
+  }
+      return navigationMap[cardIndex];
+};

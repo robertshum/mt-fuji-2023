@@ -5,7 +5,11 @@
   import { onDestroy, onMount } from "svelte";
   import NeedleEngine from "../components/NeedleEngine.svelte";
   import { goto } from "$app/navigation";
-  import { navigationMap } from "../scripts/navigation/menu";
+  import {
+    navigationMap,
+    getPreviousCard,
+    getNextCard,
+  } from "../scripts/navigation/menu";
 
   // current selected nav menu
   let activeItem = "";
@@ -50,6 +54,18 @@
     console.log("activeItem", activeItem);
     goto(url);
   };
+
+  const goToNextCard = () => {
+    const navObj = getNextCard();
+    const url = navObj.value;
+    setActiveItem(navObj.eventName, url);
+  };
+
+  const goToPreviousCard = () => {
+    const navObj = getPreviousCard();
+    const url = navObj.value;
+    setActiveItem(navObj.eventName, url);
+  };
 </script>
 
 <div class="rows">
@@ -57,9 +73,14 @@
   <div class="flex-item-1">
     <!-- Only show when within a certain breakpoint.  Disable buttons -->
     <div class="flex-col">
-      <div class="flex justify-around ">
-        <button class="btn flex-1 m-2 text-lg">&#60;</button>
-        <button class="btn flex-1 m-2 text-lg">&#62;</button>
+      <div class="flex justify-around">
+        <button
+          class="btn flex-1 m-2 text-lg"
+          on:click={() => goToPreviousCard()}>&#60;</button
+        >
+        <button class="btn flex-1 m-2 text-lg" on:click={() => goToNextCard()}
+          >&#62;</button
+        >
       </div>
       <!-- Mt. Fuji Title -->
       <div class="m-2 pl-4 bg-blue-50 border rounded-lg min-w-40">
