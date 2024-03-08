@@ -1,6 +1,6 @@
 import { base } from "$app/paths";
 
-export const getNavigationMap = () => {
+const getNavigationMap = () => {
   return [
     { key: 'Intro', value: `${base}/cards/intro`, eventName: 'intro' },
     { key: 'Shinjuku', value: `${base}/cards/shinjuku`, eventName: 'shinjuku' },
@@ -21,3 +21,5 @@ export const getNavigationMap = () => {
     { key: 'Retrospect', value: `${base}/cards/backToTokyo`, eventName: 'backToTokyo' },
   ];
 };
+
+export const navigationMap = getNavigationMap();

@@ -5,12 +5,12 @@
   import { onDestroy, onMount } from "svelte";
   import NeedleEngine from "../components/NeedleEngine.svelte";
   import { goto } from "$app/navigation";
-  import { getNavigationMap } from "../scripts/navigation/menu";
+  import { navigationMap } from "../scripts/navigation/menu";
 
   // current selected nav menu
   let activeItem = "";
 
-  const navMap = getNavigationMap();
+  // const navMap = navigationMap();
 
   // Add event listener when the component is mounted
   // Do whatever you have to do to make TS happy.
@@ -55,7 +55,12 @@
 <div class="rows">
   <!-- Dynamic Card Content -->
   <div class="flex-item-1">
+    <!-- Only show when within a certain breakpoint.  Disable buttons -->
     <div class="flex-col">
+      <div class="flex justify-around ">
+        <button class="btn flex-1 m-2 text-lg">&#60;</button>
+        <button class="btn flex-1 m-2 text-lg">&#62;</button>
+      </div>
       <!-- Mt. Fuji Title -->
       <div class="m-2 pl-4 bg-blue-50 border rounded-lg min-w-40">
         <span class="text-lg">
@@ -69,13 +74,14 @@
       <!-- About Button -->
       <ul class="menu">
         <li>
-          <button class="hover:bg-lime-50 hover:border hover:rounded-lg" on:click={()=>goto(`${base}`)}
-            ><strong>About</strong></button
+          <button
+            class="hover:bg-lime-50 hover:border hover:rounded-lg"
+            on:click={() => goto(`${base}`)}><strong>About</strong></button
           >
         </li>
       </ul>
       <ul class="menu">
-        {#each navMap as navItem}
+        {#each navigationMap as navItem}
           <li>
             <button
               class={activeItem === navItem.value
